@@ -34,8 +34,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-<<<<<<< HEAD
-        python -m unittest ./test.py
-=======
         python -m unittest test.py
->>>>>>> dea74b6 (Updated CI/CD)
